@@ -1,9 +1,21 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
         <OutputType>Exe</OutputType>
         <TargetFramework>netcoreapp2.2</TargetFramework>
         <RootNamespace>csharp_invasion_percolation</RootNamespace>
     </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="C5" Version="3.0.0-beta" />
+      <PackageReference Include="FSharp.Core" Version="4.6.2" />
+      <PackageReference Include="System.Drawing.Common" Version="4.6.0-preview3.19128.7" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="ResistanceType, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>..\ResistanceType.dll</HintPath>
+      </Reference>
+    </ItemGroup>
 
 </Project>
